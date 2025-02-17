@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.contact-wrapper {
+  max-width: 800px;
+}
+
+.author-wrapper {
+  max-width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-wrapper-in {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.width-align {
+  width: 115px;
+  /* text-align: center; */
+}
+
+.long-span {
+  height: 1px;
+  max-width: 400px;
+  width: 100%;
+  background-color: white;
+  margin: 30px auto 0 auto;
+}
+
+.home-wrapper {
+  max-width: 100%;
+  align-items: center !important;
+}
+
+.subscriptions {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.subscription {
+  height: 650px;
+  justify-content: space-between;
+  background-color: rgb(238, 238, 238);
+  color: black;
+  text-align: left;
+  border-radius: 15px;
+}
+
+.subscribe-button {
+  color: black;
+  border-radius: 32px;
+}
+
+.about-second {
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.about-second-item {
+  max-width: 384px;
+  border-color: rgb(136, 136, 136);
+}
+
+@media (min-width: 500px) {
+  .blog-container {
+    margin: 3rem;
+  }
+}
+
+@media (min-width: 1020px) {
+  .footer-wrapper-in {
+    justify-content: space-evenly;
+
+  }
+}
