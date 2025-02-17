@@ -13,8 +13,8 @@ Loyihani yuklab oling va quyidagi buyruqlar orqali ishga tushiring:
 
 ```sh
 # Repository'ni klonlash
-git clone https://github.com/username/repository.git
-cd repository
+git clone https://github.com/ayubxon0880/trends.git
+cd trends
 
 # Kerakli kutubxonalarni o‘rnatish
 npm install  # yoki yarn install
@@ -24,10 +24,10 @@ npm install  # yoki yarn install
 Loyihani mahalliy serverda ishga tushirish uchun:
 
 ```sh
-npm start  # yoki yarn start
+npm run dev
 ```
 
-Brauzeringizda `http://localhost:3000` manziliga kiring.
+Brauzeringizda `http://localhost:5173` manziliga kiring.
 
 ## Build qilish
 Loyihani production uchun tayyorlash:
@@ -37,26 +37,3 @@ npm run build  # yoki yarn build
 ```
 
 Hosil bo‘lgan `build/` papkasida loyihaning optimallashtirilgan versiyasi yaratiladi.
-
-## Texnologiyalar
-Loyihada quyidagi texnologiyalar ishlatilgan:
-
-- React
-- React Router
-- Tailwind CSS (agar ishlatilgan bo‘lsa)
-- Redux Toolkit (agar ishlatilgan bo‘lsa)
-
-## Foydalanish
-Agar loyihaga hissa qo‘shmoqchi bo‘lsangiz, quyidagi tartibda davom eting:
-
-1. Fork qiling
-2. O‘z branch'ingizni yarating: `git checkout -b yangi-funksiyalar`
-3. O‘zgarishlarni commit qiling: `git commit -m 'Yangi funksiya qo‘shildi'`
-4. Repository'ga push qiling: `git push origin yangi-funksiyalar`
-5. Pull request yuboring
-
-## Muallif
-- **Ismingiz** - [GitHub Profilingiz](https://github.com/username)
-
-## Litsenziya
-Bu loyiha **MIT** litsenziyasi asosida tarqatiladi.
