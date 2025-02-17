@@ -25,6 +25,9 @@ Loyihani mahalliy serverda ishga tushirish uchun:
 
 ```sh
 npm run dev
+
+cd ./src/service
+node service.js
 ```
 
 Brauzeringizda `http://localhost:5173` manziliga kiring.
@@ -37,3 +40,4 @@ npm run build  # yoki yarn build
 ```
 
 Hosil bo‘lgan `build/` papkasida loyihaning optimallashtirilgan versiyasi yaratiladi.
+
